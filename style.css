@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    background-color: aqua;
+    height: 100vh;
+    border:10px solid blue;
+}
+.top_sec{
+    margin-top: 100px;
+    display: flex;
+       justify-content: space-between;
+}
+.top_sec h1{
+    font-size: 55px;
+    font-weight: bold;
+    color: currentColor;
+}
+.content{
+    max-width: 950px;
+    margin:0 auto;
+}
+.content img{
+    width: 300px;
+    height: 320px;
+}
